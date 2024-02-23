@@ -1,21 +1,23 @@
 package tools
 
-import ("time")
+import (
+	"time"
+)
 
 type mockDB struct{}
 
-var mockLoginDetails map[string]LoginDetails{
+var mockLoginDetails = map[string]LoginDetails{
 	"alex": {
-		AuthToken: "123ABC"
-		Username: "Alex"
-	}
+		AuthToken: "123ABC",
+		Username: "Alex",
+	},
 }
 
-var mockCoinDetails map[string]CoinDetails{
+var mockCoinDetails = map[string]CoinDetails{
 	"alex": {
-		Coins: 12
-		Username: "Alex"
-	}
+		Coins: 12,
+		Username: "Alex",
+	},
 }
 
 func (d *mockDB) GetUserLoginDetails(username string) *LoginDetails{
