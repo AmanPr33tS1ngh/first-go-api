@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/AmanPr33tS1ngh/goapi/api"
-	"github.com/AmanPr33tS1ngh/goapi/internal/tools"
+	"github.com/AmanPr33tS1ngh/first-go-api/api"
+	"github.com/AmanPr33tS1ngh/first-go-api/internal/tools"
 	log "github.com/sirupsen/logrus"
 )
 
