@@ -12,7 +12,7 @@ type CoinBalanceParams struct{
 
 type CoinBalanceResponse struct{
 	// status code : 200/404
-	Code int
+	Code int64
 	// Account Balance
 	Balance int
 }
